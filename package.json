@@ -1,0 +1,25 @@
+{
+  "name": "xb_promotion_nuxt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "core-js": "^3.25.3",
+    "element-ui": "^2.15.10",
+    "gh-pages": "^6.1.1",
+    "less": "^4.2.0",
+    "less-loader": "7",
+    "nuxt": "^2.15.8",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {}
+}
